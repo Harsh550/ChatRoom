@@ -14,8 +14,8 @@ await connectDB();
 const app = express();
 const httpServer = http.createServer(app);
 
-const allowedOrigins = process.env.CLIENT_URL
-  ? process.env.CLIENT_URL.split(",").map(x => x.trim())
+const allowedOrigins = process.env.VITE_API_URL
+  ? process.env.VITE_API_URL.split(",").map(x => x.trim())
   : ["http://localhost:5173"];
 
 app.use(cors({ origin: allowedOrigins, credentials: true }));
