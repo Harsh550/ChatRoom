@@ -173,7 +173,7 @@ export default function ChatWindow({ room, onNewMessage }) {
   if (!room) return (
     <main className="flex flex-1 items-center justify-center bg-slate-50 p-8 text-center">
       <div><div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-900 text-white"><Hash /></div>
-      <h2 className="text-xl font-bold">Welcome to SyncSpace</h2><p className="mt-1 text-sm text-slate-500">Select a room or start a direct message.</p></div>
+      <h2 className="text-xl font-bold">Welcome to ChatRoom</h2><p className="mt-1 text-sm text-slate-500">Select a room or start a direct message.</p></div>
     </main>
   );
 

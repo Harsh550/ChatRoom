@@ -5,7 +5,7 @@ import ChatLayout from "./pages/ChatLayout";
 
 function AppContent() {
   const { user, loading } = useAuth();
-  if (loading) return <div className="flex min-h-screen items-center justify-center bg-slate-950 text-white">Loading SyncSpace...</div>;
+  if (loading) return <div className="flex min-h-screen items-center justify-center bg-slate-950 text-white">Loading ChatRoom...</div>;
   return user ? <SocketProvider><ChatLayout /></SocketProvider> : <AuthPage />;
 }
 

@@ -22,7 +22,7 @@ export default function AuthPage() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-slate-950 p-5">
       <div className="w-full max-w-md rounded-2xl bg-white p-7 shadow-2xl">
-        <h1 className="text-2xl font-bold">SyncSpace</h1>
+        <h1 className="text-2xl font-bold">Chatroom</h1>
         <p className="mt-1 text-sm text-slate-500">Real-time chat & collaboration</p>
         <form onSubmit={submit} className="mt-7 space-y-4">
           {mode === "register" && <input required placeholder="Full name" value={form.name} onChange={e => setForm({...form, name:e.target.value})} className="w-full rounded-lg border px-3 py-3 outline-none focus:border-slate-500" />}

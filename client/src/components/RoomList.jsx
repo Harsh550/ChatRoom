@@ -14,7 +14,7 @@ export default function RoomList({
       <div className="border-b border-slate-200 p-4">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-xl font-bold text-slate-900">SyncSpace</h1>
+            <h1 className="text-xl font-bold text-slate-900">ChatRoom</h1>
             <p className="text-xs text-slate-500">Real-time collaboration</p>
           </div>
           <button onClick={onLogout} title="Logout" className="rounded-lg p-2 text-slate-500 hover:bg-slate-100">
